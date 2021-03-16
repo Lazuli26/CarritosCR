@@ -10,6 +10,7 @@
     ]
   },
   "hosting": {
+    "predeploy": "npm run ionic-deploy --prefix WebApp",
     "public": "WebApp/public",
     "ignore": [
       "firebase.json",
